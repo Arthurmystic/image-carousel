@@ -6,7 +6,7 @@ module.exports = merge(common, {
 
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/index.html"], // UPDATE THIS
+    watchFiles: ["./src/image-carousel.html"], // UPDATE THIS
   },
 
   // USE THIS AND COMMENT OUT ABOVE IF THOROUGH (BUT SLOWER) DEBUGGING IS PREF

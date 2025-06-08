@@ -1,0 +1,77 @@
+/* styles.css */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-container {
+  position: relative;
+  width: 80vw;
+  height: 50vw;
+  border: 2px solid red;
+}
+
+#arrows {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#previous,
+#next {
+  font-size: 1.7rem;
+}
+
+#imgDiv {
+  width: inherit;
+  height: inherit;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  display: none;
+}
+
+.dot:hover {
+  background-color: yellow !important;
+}
+
+.dot {
+  background-color: pink;
+  border-radius: 50%;
+  border: 1px solid yellow;
+  width: 20px;
+  height: 20px;
+}
+
+#scrollDots {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  gap: 2px;
+}
+
+/* .dot {
+  /* position: absolute; */
+/* bottom: 0px; */
+/* }  */

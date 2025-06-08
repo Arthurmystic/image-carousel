@@ -15,7 +15,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // UPDATE THIS IF HAVE AN HTML to the html file name
+      template: "./src/image-carousel.html", // UPDATE THIS IF HAVE AN HTML to the html file name
       // title: 'production',  //OR Use this if u want webpack to generate a dynakic htmlfromm scratch
     }),
   ],
